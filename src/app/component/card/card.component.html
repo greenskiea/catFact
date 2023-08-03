@@ -1,0 +1,16 @@
+<a
+  class="card"
+  href="https://codetheweb.blog/2017/10/06/html-syntax/"
+  style="--bg-img: url({{ fact.imageURL }})"
+>
+  <div>
+    <h1>Cat Blog</h1>
+    <p>
+      {{ fact.fact }}
+    </p>
+    <div class="date">{{ time | date }}</div>
+    <div class="tags">
+      <div class="tag">Cat</div>
+    </div>
+  </div>
+</a>
