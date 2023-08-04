@@ -9,8 +9,8 @@ import { Observable, map } from 'rxjs';
 export class CatFactService {
   constructor(private http: HttpClient) {}
 
-  getCatFact(limit: number): Observable<CatFact[]> {
-    let responseFact = this.http.get<CatFact[]>(
+  getCatFact(limit: number): Observable<any> {
+    let responseFact = this.http.get<any>(
       `https://catfact.ninja/facts?limit=${limit}`
     );
 
