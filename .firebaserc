@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webbanhang-74a05": {
+      "hosting": {
+        "catFact": [
+          "webbanhang-74a05"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webbanhang-74a05"
+  }
+}
